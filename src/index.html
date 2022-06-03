@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WG Forge Test</title>
+    <style>
+        th, td {
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Transaction ID</th>
+                <th>User Info</th>
+                <th>Order Date</th>
+                <th>Order Amount</th>
+                <th>Card Number</th>
+                <th>Card Type</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody id="ordersTable">
+        </tbody>
+    </table>
+    <div id="app"></div>
+
+    <script type="text/javascript" src="data/orders.json"></script>
+    <script type="text/javascript" src="src/app.js"></script>
+</body>
+</html>
